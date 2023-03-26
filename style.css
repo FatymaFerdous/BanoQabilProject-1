@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(high-angle-shot-beautiful-tropical-jungle-with-exotic-tall-trees.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+}
+li a{
+    text-decoration: none;
+
+}
+
+.main{
+    color: #f0dcad;
+    list-style-type: none;
+    
+}
+.sub li:hover{
+    background-color: bisque;
+    color: black;
+}
+.main :hover{
+    color: #744c12;
+}
+
+.list-items{
+    
+       display: inline-block;
+        padding: 10px 30px;
+        cursor: pointer; 
+}
+.sub{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+}
+
+/* .drpdownsub{
+    
+    list-style-type: none;
+    position: absolute; */
+    /* display: none; */
+    
+
+/* 
+.drpdownsub li {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10px 10px;
+    z-index: 2;
+   
+
+} */
+
+
+.sub li {
+    /* display: none; */
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10px 10px;
+    z-index: 2;
+   }
+   
+.list-items:hover .sub {
+    display: block;
+    color: #744c12;
+} 
+
+.sub li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f0dcad;
+}
+
+.drpdownsub{
+    list-style-type: none;
+
+}
+
+a:visited{
+    color: #f0dcad;
+}
+
+.logo {
+    /* position: absolute;  */
+    margin-left: 30px; 
+    margin-top: 10px; }
+ 
+.tabs{
+    padding-left: 100px ;
+    /* padding-top: 40; */
+    margin-left: 70px;
+    /* margin-bottom: 0px; */
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+   
+}    
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #f0dcad;
+  }
+
+.banner1{
+    padding-left:0px; 
+    padding-top: 530px;
+   
+}
+
+.banner2{
+    position: absolute;
+    padding-left: 357px;
+    margin-top: -300px;
+}
+
+.about{
+    color: #744c12;
+    position: absolute;
+    margin-top: 600px;
+    left: 50%; 
+    transform: translate(-50%, -20%);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back{
+    padding-left: 478px ;
+    margin-top: 300px;  
+    
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.footer{
+    background-color: #f0dcad;
+}
+
+.footcontent{
+    color: #744c12;
+}
+
+.last{
+
+    text-align:center;
+    color: #744c12;
+   
+}
+
+.footmap{
+    
+    text-align: center;
+}
+
+.imglast{
+    color: #744c12;
+}
+
+.copyrights{
+    background-color: #744c12;
+    text-align: center;
+
+}
+.text{
+    color: #f0dcad;
+    font-size: large;
+
+}
+#content {
+    animation-name: slidein;
+    animation-duration: 3s;
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+/* .about{
+    animation-name: none;
+    animation-duration: 5sec;
+    
+  } */
+
+.shape1{
+    position: absolute;
+    padding-top: 510px;
+    padding-left: 30px;
+    animation-name: none;
+    animation-duration: 5sec;
+
+}
+@keyframes identifier {
+    0% {
+        max-zoom: 200px;
+    }
+    50%{
+        max-zoom: 100px
+    }
+
+    100%{
+        min-zoom: 50px;
+    }
+}
+ 
+
+.shape2{
+    position: absolute;
+    padding-top: 935px;
+    padding-left:1680px;
+}
+   

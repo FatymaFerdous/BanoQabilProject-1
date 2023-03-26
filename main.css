@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(high-angle-shot-beautiful-tropical-jungle-with-exotic-tall-trees.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.head{
+    text-align: center;
+    color: #f0dcad;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tophead{
+    color: #f0dcad;
+}
+
+.heading{
+    color: #f0dcad;
+    
+}
+
+.pic{
+    height: 240px;
+    width: 380px;
+}
+
+
+div.flex-container{
+    margin-top: 50px;
+    margin-left: 190px;
+    
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-items: center;
+    width: 1686px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+   
+}
+
+.flex-container img {
+    margin: 10px;
+  }
+
+  .flex-container h2 {
+    margin: 10px;
+  }
+
+  .flex-container img:hover {
+    opacity: 0.5;
+    content: url(download.jpg)
+
+   ;
+  }
+
+ 
